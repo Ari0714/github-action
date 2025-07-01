@@ -1,2 +1,10 @@
 on: push
 
+jobs:
+  job1:
+    step:
+      - run: pwd
+      - run: ls
+  job2:
+    step:
+      - run: node -v
